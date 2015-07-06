@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white" >
+
+     <RelativeLayout
+        android:id="@+id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/bottombg" >
+
+        <TextView
+            android:id="@+id/tv_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+           
+            android:text="常用快递"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/image_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="28dp"
+            android:src="@drawable/touxiang" />
+        
+    </RelativeLayout>
+    
+    
+    
+  
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+              android:gravity="center_horizontal|center_vertical" >
+
+            <ImageView
+                android:id="@+id/image_yunda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/yunda" />
+           
+        </LinearLayout>
+        
+         <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+              android:gravity="center_horizontal|center_vertical" >
+             <ImageView
+                android:id="@+id/image_sto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/st" 
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+              android:gravity="center_horizontal|center_vertical" >
+
+            <ImageView
+                android:id="@+id/image_zto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/zto" />
+           
+        </LinearLayout>
+        
+         <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+              android:gravity="center_horizontal|center_vertical" >
+             <ImageView
+                android:id="@+id/image_sf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sf" 
+               />
+        </LinearLayout>
+
+    </LinearLayout>
+     <LinearLayout
+        android:layout_width="match_parent"
+       android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+              android:gravity="center_horizontal|center_vertical" >
+
+            <ImageView
+                android:id="@+id/image_yt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/yt" />
+           
+        </LinearLayout>
+        
+         <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+              android:gravity="center_horizontal|center_vertical" >
+             <ImageView
+                android:id="@+id/image_di"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/yz" 
+              />
+        </LinearLayout>
+
+    </LinearLayout>
+     <LinearLayout
+        android:layout_width="match_parent"
+       android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+              android:gravity="center_horizontal|center_vertical" >
+
+            <ImageView
+                android:id="@+id/image_tt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tt" />
+           
+        </LinearLayout>
+        
+         <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+              android:gravity="center_horizontal|center_vertical" >
+             <ImageView
+                android:id="@+id/image_jia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/jia" 
+               />
+        </LinearLayout>
+
+    </LinearLayout>
+    
+
+</LinearLayout>
