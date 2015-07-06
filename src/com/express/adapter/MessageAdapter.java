@@ -14,7 +14,7 @@ import android.widget.BaseAdapter;
 import android.widget.TextView;
 
 public class MessageAdapter extends BaseAdapter {
-
+//hbhgyuhyu
 	List<Message> mess;
 	Context context;
 	LayoutInflater inflater;
